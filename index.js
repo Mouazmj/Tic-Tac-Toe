@@ -16,3 +16,10 @@ const Gameboard = (function() {
         setCell
     }
 })()
+
+const Player = (name, marker) => {
+    return { name, marker }
+}
+
+const player1 = Player('Mouaz', 'X')
+const player2 = Player('Tamer', 'O')
